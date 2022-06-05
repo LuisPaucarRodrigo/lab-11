@@ -23,7 +23,7 @@ class CreateProductoTable extends Migration
             $table->string('descripcion');
             $table->integer('stock');
             $table->decimal('precio');
-            $table->string('imagen');
+            $table->fi('imagen');
             $table->timestamps();
         });
     }
